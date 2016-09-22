@@ -1,0 +1,183 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="navbar.css" type="text/css" />
+    <link rel="stylesheet" href="How_To.css" type="text/css" />
+</head>
+
+<body style="text-align:right;color:white;">
+   <ul id="navbar">
+
+    <li> <a href="index.html"> <p><i>About me</i></p>       </a>  </li> 
+    <li> <a href="hardware.html"><p><i>hardware</i></p>   </a>  </li>
+    <li> <a href="howto.html"><p><i>How to</i></p> </a>  </li>
+    <li> <a href="#"><p><i>Calculator</i></p> </a>  </li>
+    <li> <a href="#"><p><i>Todo List </i></p> </a>  </li>
+    <li> <a href="#"> <p><i>Vindinium</i></p> </a>  </li>
+    <li> <a href="#"><p><i>Big Project</i></p></a>  </li> 
+
+        </li>
+        <div class>
+        
+            <p style="color: white; font-size: 30px; text-align:center;">H O W T O P A G E </p></font>
+    </div>
+    </ul>
+   <div class="shift">     
+   <div class="left"
+   <b><p>HOW TO CREATE THE NAVBAR</p></b>
+    <hr>
+    
+  <big> <b><p>Step 1: The HTML</p></b></big>
+ <u> <p></p>First you will be making your list names  for your navbar: </p></u>
+  </p><code>
+      <pre>
+       <b> &lt;li&gt; hardware&lt;/li&gt;<br>
+        &lt;li&gt;How to&lt;/li&gt;<br>
+         &lt;li&gt; Calculator&lt;/li&gt;<br>
+         &lt;li&gt;Todo List&lt;/li&gt;<br>
+         &lt;li&gt;Vindinium&lt;/li&gt;<br>
+         &lt;li&gt;Big Project&lt;/li&gt;<br> </b>
+      </pre>
+       </code>
+       
+        <u><p> The above HTML code on your page should look like this:</p></u>
+        
+       
+       
+   
+         
+         <li> hardware</li>
+         <li>How to</li>
+         <li> Calculator</li>
+         <li>Todo List</li>
+         <li>Vindinium</li>
+         <li>Big Project</li> 
+<hr>
+
+<b><u><p><big>Step 2: The Links</big></p></u></b>
+
+<p>The next thing to do is add the &lt;a&gt; links,which will link to the specified pages.</p>
+
+<code>
+    <pre>
+        <b>
+              
+    &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;p&gt;&lt;i&gt;Howto page&lt;/i&gt;&lt;/p&gt; &lt;/a&gt;  &lt;/li&gt;
+    &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;p&gt;&lt;i&gt;Calculator&lt;/i&gt;&lt;/p&gt; &lt;/a&gt;  &lt;/li&gt;
+    &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;p&gt;&lt;i&gt;Todo List &lt;/i&gt;&lt;/p&gt; &lt;/a&gt;  &lt;/li&gt;
+    &lt;li&gt; &lt;a href=&quot;#&quot;&gt; &lt;p&gt;&lt;i&gt;Vindinium&lt;/i&gt;&lt;/p&gt; &lt;/a&gt;  &lt;/li&gt;
+    &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;p&gt;&lt;i&gt;Big Project&lt;/i&gt;&lt;/p&gt;&lt;/a&gt;  &lt;/li&gt; 
+        </b>
+    </pre>
+</code>
+
+
+
+<u><p>Your page should look like this now : </p></u>
+  <body link="white">
+  
+    <li> <a href="#"><p><i>hardware</i></p>   </a>  </li>
+    <li> <a href="#"><p><i>How to</i></p> </a>  </li>
+    <li> <a href="#"><p><i>Calculator</i></p> </a>  </li>
+    <li> <a href="#"><p><i>Todo List </i></p> </a>  </li>
+    <li> <a href="#"> <p><i>Vindinium</i></p> </a>  </li>
+    <li> <a href="#"><p><i>Big Project</i></p></a>  </li> 
+
+    </body>
+
+<p>This is all the HTML I used.
+What we have is an Unordered List &lt;ul&gt; which contains List Items   &lt;li&gt;, which contains an Anchor link,a clickable text in a hyperlink which determine the ranking that the page will receive by search engines.  <a>
+</p>
+
+<hr>
+<b><p><big>Step 3: The CSS</big></p></b>
+<u><p>The first thing we want to do is:</p></u>
+
+<p> 1. Add a border radious of 10px </p>
+<p>2. To align the navbar to horizontally in the middle, I used text align: center </p>
+
+<u><p>Your CSS code should like this : </p></u>
+                  <code>
+                      <pre>
+                          <b>
+ #navbar {
+ background-color:black;
+ border-radius: 10px;
+ text-align:center;}
+                          </b>
+                      </pre>
+                  </code>
+
+
+
+
+<u><p> Next is making it pretty :</p></u>
+
+<p>1. Add a background color with background-color: "color"</p>
+<p>2. Add a font color with "color: white"</p>
+<p>3. Change the border color with, "border: solid grey;"
+<p>4. You can also change the font, with font-family: Arial, Helvetica, sans-serif</p>
+
+<code>
+    <pre>
+        <b>
+  #navbar > li {
+  display: inline-block;
+  background-color: white;
+  border:5px solid grey; }
+              </b> </pre></code><hr>
+
+  <b><p style="color: white;"> HOW TO CREATE IMAGES </p></b>
+  <hr>
+  <b><p><big>Step 1: Tags</big></p></b>
+  
+  <p>In HTML, images are defined with the &lt;img&gt;
+ tag.
+
+
+
+<u><p>The src attribute specifies the URL (web address) of the image:</p></u>
+
+<code>
+    <pre>
+        <b>
+ &lt;img src=&quot;url&quot>
+        </b>
+    </pre>
+</code>
+
+<b><p><big>Step 2: Image Size - Width and Height</big></p></b>
+<p>You can use the style attribute to specify the width and height of an image.</p>
+
+<u><p>The values are specified in pixels (use px after the value): </p></u>
+<code>
+    <pre>
+        <b>
+ &lt;img src=&quot;url&quot>;style=&quot;width:128px;height:128px;&quot;&gt;
+        </b>
+    </pre>
+</code>
+<hr>
+
+ <b><p style="color: white;"> HOW TO CREATE TEXT </p></b>
+ <hr>
+<p>In order to create my headings and texts. I used various text formatting.</p>
+<u><p>  I used the follwoing formats:</p></u>
+
+
+<b><p>1. &lt;p&gt; &quot;add text here&quot;&lt;/p&gt;</p></b>
+<p>I used this to make the text</p>
+
+<b><p>2. &lt;b&gt; &quot;add text here&quot;&lt;/b&gt;</p></b>
+<p> I used this to make the text bold </p>
+
+<b><p>3. &lt;i&gt; &quot;add text here&quot;&lt;/i&gt;</p></b>
+<p> I used this to make the text italic</p>
+
+<b><p style="color: white;">  </p></b>
+
+
+</div>
+</div>
+
+</html>

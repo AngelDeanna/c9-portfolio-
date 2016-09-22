@@ -1,0 +1,21 @@
+html{
+    background-image:url("http://birt.actuate.com/images/Full_images/cfa/sliders/products-ihub-visualization/data-access/data-access2/data-access-bannerv2.jpg") ;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.Shift{
+    margin-left: 60%;
+    background-color:black;
+    padding: 20px;
+}
+
+.left{
+    text-align:left;
+}
+
+a:visited{
+    color:black;
+}
